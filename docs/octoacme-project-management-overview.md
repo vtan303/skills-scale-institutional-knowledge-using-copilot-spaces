@@ -14,11 +14,19 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+The OctoAcme project team consists of several key roles, each with distinct responsibilities. While every project may not include all roles, these definitions help clarify typical responsibilities and communication patterns:
+
+- **Project Manager (PM)**: Coordinates delivery, schedules, risk, and communications.
+- **Product Manager (PdM)**: Defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: Implement features, collaborate on design and testability.
+- **QA Lead / Testing Specialist**: Validates quality and acceptance criteria.
+- **Scrum Master** (where applicable): Facilitates agile practices and removes impediments.
+- **UX Designer**: Advocates for user experience and creates design artifacts.
+- **Solutions Architect**: Guides technical architecture and integration decisions.
+- **Business Analyst**: Translates business needs into requirements and acceptance criteria.
+- **Stakeholders**: Provide inputs, approvals, and business context.
+
+**See `docs/octoacme-roles-and-personas.md` for detailed role descriptions, responsibilities, and interaction patterns.**
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +52,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Reference the Personas doc when setting up role-specific onboarding or defining approval workflows.
